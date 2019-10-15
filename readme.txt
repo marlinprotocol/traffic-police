@@ -6,7 +6,8 @@ Problems:
 Things to keep in mind:
 1. Rules get applied in order they are present in the table
 2. use sudo
-3. hardcoded vals which needs to be changed or put in config:
+3. 10mb -> 10mbytes not mbits, Similarly 10mbps -> 10mbytes per sec
+4. hardcoded vals which needs to be changed or put in config:
 	a. max elements in ipset blacklist - 10^5
 	b. blacklist time - 10 minutes / 600 secs
 	c. udp packets destined to port 8002 on the host machine are filtered
