@@ -24,10 +24,10 @@ things tested:
 2. burst limit works fine. No packets were dropped until burst cap of 10 mb regardless of rate
 3. if packet rate exceeds given rate after burst limit: the ip is added to blacklist for 10 minutes, and subsequent packets are dropped
 
-things to test:
+things to test/todo:
 1. when does 10 mb burst limit gets reset?
 2. does logging work? where does it get logged
-
+3. sample the log. not to log all dropped packets
 
 
 
